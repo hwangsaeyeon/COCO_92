@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AppmainConfig(AppConfig):
+class KboTeamConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'appMain'
+    name = 'kbo_team'

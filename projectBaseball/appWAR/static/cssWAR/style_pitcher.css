@@ -27,8 +27,8 @@ th{
 
 .result_name{
     text-align:center;
-    color: #fc04a8;
-        font-family: 'yg-jalnan';
+    color: #bc8f8f;
+        font-family: 'Noto Sans KR';
     font-weight: bolder;
     font-size:55px;
     text-shadow: 0 1px 3px #1F1F1F;
@@ -37,7 +37,7 @@ th{
 
 .result_title{
     color:white;
-        font-family: 'yg-jalnan';
+             font-family: 'Noto Sans KR';
     font-weight: bolder;
     font-size:50px;
     text-align:center;
@@ -85,7 +85,7 @@ th{
 
 .transformed_data_color{
     font-family:'yg-jalnan';
-    color: #fc04a8;
+    color: #bc8f8f;
     text-align:center;
     text-shadow: 0 1px 3px #1F1F1F;
 }
@@ -93,7 +93,7 @@ th{
 
 /*war explain 왼쪽 하단 */
 .war_explain_title{
-    margin-top:100px;
+    margin-top:130px;
     text-align: left;
     color: #9b9b9b;
     padding-left:30px;

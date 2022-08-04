@@ -40,9 +40,9 @@ INSTALLED_APPS = [
 ]
 
 INSTALLED_APPS += [
-    'appMain',
-    'appPred',
     'appWAR',
+    'winlose',
+    'kbo_team',
 ]
 
 MIDDLEWARE = [

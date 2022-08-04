@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ApppredConfig(AppConfig):
+class WinloseConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'appPred'
+    name = 'winlose'

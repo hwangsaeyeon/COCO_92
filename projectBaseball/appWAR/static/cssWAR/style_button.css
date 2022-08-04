@@ -1,6 +1,7 @@
 /*This was all taken from https://tympanus.net/Development/ButtonStylesInspiration/ but I needed to see it in CodePen
 */
 @import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @font-face {
   font-weight: normal;
   font-style: normal;
@@ -66,14 +67,14 @@ body {
 /* Box colors */
 .bg-1 {
   background: #ECEFF1;
-  color: #37474f;
+  color: #ffffff;
 }
 .bg-2 {
-  background: #7986cb;
+  background: #ffffff;
   color: #ECEFF1;
 }
 .bg-3 {
-  background: #37474f;
+  background: #ffffff;
   color: #fff;
 }
 
@@ -82,8 +83,7 @@ body {
   margin-top:40px;
   display:inline-block;
 
-  font-family: 'yg-jalnan';
-
+  font-family:'Noto Sans KR';
   padding: 15px;
   border: none;
   background: none;
@@ -103,8 +103,8 @@ body {
 
 /* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari) */
 .bg-1 .button {
-  color: #37474f;
-  border-color: #37474f;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 .bg-2 .button {
   color: #ECEFF1;
@@ -179,7 +179,7 @@ body {
   top: 0;
   left: 0;
   opacity: 0;
-  color: #fc0488;
+  color: #bc8f8f;
   -webkit-transform: translate3d(0, 25%, 0);
   transform: translate3d(0, 25%, 0);
 }
@@ -187,7 +187,7 @@ body {
   display: block;
 }
 .button--winona.button--inverted {
-  color: #3caffd;
+  color: #87ceeb;
 }
 .button--winona.button--inverted:after {
   color: #fff;
@@ -201,13 +201,13 @@ body {
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 .button--winona:hover {
-  border-color: #3caffd;
+  border-color:#87ceeb;
 
 }
 .button--winona.button--inverted:hover {
-  border-color: #3cadfd;
+  border-color: #87ceeb;
 
-  background-color: #3cadfd;
+  background-color: #87ceeb;
 }
 .button--winona:hover::after {
   opacity: 1;

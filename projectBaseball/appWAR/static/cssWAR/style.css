@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @font-face {
     font-family: 'yg-jalnan';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
@@ -9,6 +10,8 @@ body {
      padding-top: 10px;
      background: #000000  no-repeat;
      background-size:cover;
+
+
 }
 
 /*title*/
@@ -30,24 +33,27 @@ th {
     color:white;
     font-size:50px;
     -webkit-text-stroke: 0px black;
-    font-family: 'yg-jalnan';
+    font-weight:bold;
     text-shadow: 0 1px 3px #1F1F1F;
+    font-family:'Noto Sans KR';
 
 }
 
 .name{
-    color: #3caffd;
-    font-family: 'yg-jalnan';
+    color: #87ceeb;
+    font-weight:bold;
     font-size:55px;
     text-shadow: 0 1px 3px #1F1F1F;
     /*-webkit-text-stroke: 1px white; /* width and color */
+    font-family:'Noto Sans KR';
 }
 
 .name2{
-    color: #fc04a8;
+    color: #bc8f8f;
     font-size:55px;
-    font-family: 'yg-jalnan';
+    font-weight:bold;
     text-shadow: 0px 1px 3px #1F1F1F;
+    font-family:'Noto Sans KR';
 
 }
 
@@ -65,11 +71,12 @@ table {
     text-layout:fixed;
     height:100%;
 
+
 }
 
 /*셀렉트(타자, 투수 선택하는 부분)*/
 .select{
-    font-family: 'yg-jalnan';
+    font-weight:bold;
 
 
     background: url('../droparrow.png') no-repeat;
@@ -86,6 +93,7 @@ table {
     color:white;
     width:100px;
     margin-right:20px;
+    font-family:'Noto Sans KR';
 
 }
 select:hover {
@@ -107,7 +115,7 @@ option{color:black;}
   position: relative;
   text-align: center;
   background:#1F1F1F;
-    font-family: 'yg-jalnan';
+    font-family:'Noto Sans KR';
     box-sizing:border-box;
     width:150px;
     padding-bottom: 20px;
@@ -145,16 +153,15 @@ option{color:black;}
 [data_tooltip]{position:relative;}
 [data_tooltip]:before,
 [data_tooltip]:after{visibility:hidden;opacity:0;position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;transition:all .2s ease;font-size:11px;font-family:dotum;letter-spacing:-1px;}
-[data_tooltip]:before{content:attr(data_tooltip);height:13px;position:absolute;top:-20px;padding:5px 10px;border-radius:5px;color:#fff;background: #3caffd;box-shadow:0 3px 8px rgba(165, 165, 165, 0.5);}
-[data_tooltip]:after{content: '';border-left:5px solid transparent;top:2px;border-right:5px solid transparent;border-top:5px solid #3caffd;}
+[data_tooltip]:before{content:attr(data_tooltip);height:22px;position:absolute;top:-20px;padding:5px 12px;border-radius:5px;color:#fff;background: #87ceeb;box-shadow:0 3px 8px rgba(165, 165, 165, 0.5);}
+[data_tooltip]:after{content: '';border-left:5px solid transparent;top:2px;border-right:5px solid transparent;border-top:5px solid #87ceeb;}
 [data_tooltip]:not([data_tooltip=""]):hover:before{visibility:visible;opacity:1;top:-30px}
 [data_tooltip]:not([data_tooltip=""]):hover:after{visibility:visible;opacity:1;top:-8px}
 
 [data_tooltip2]{position:relative;}
 [data_tooltip2]:before,
 [data_tooltip2]:after{visibility:hidden;opacity:0;position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;transition:all .2s ease;font-size:11px;font-family:dotum;letter-spacing:-1px;}
-[data_tooltip2]:before{content:attr(data_tooltip2);height:13px;position:absolute;top:-20px;padding:5px 10px;border-radius:5px;color:#fff;background: #fc04a8;box-shadow:0 3px 8px rgba(165, 165, 165, 0.5);}
-[data_tooltip2]:after{content: '';border-left:5px solid transparent;top:2px;border-right:5px solid transparent;border-top:5px solid #fc04a8;}
+[data_tooltip2]:before{content:attr(data_tooltip2);height:22px;position:absolute;top:-20px;padding:5px 10px;border-radius:5px;color:#fff;background: #bc8f8f;box-shadow:0 3px 8px rgba(165, 165, 165, 0.5);}
+[data_tooltip2]:after{content: '';border-left:5px solid transparent;top:2px;border-right:5px solid transparent;border-top:5px solid #bc8f8f;}
 [data_tooltip2]:not([data_tooltip2=""]):hover:before{visibility:visible;opacity:1;top:-30px}
 [data_tooltip2]:not([data_tooltip2=""]):hover:after{visibility:visible;opacity:1;top:-8px}
-

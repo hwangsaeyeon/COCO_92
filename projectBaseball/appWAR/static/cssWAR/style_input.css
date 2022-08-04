@@ -1,3 +1,4 @@
+
 .input {
 	 position: relative;
 	 font-size: 1em;
@@ -36,7 +37,7 @@
 	 bottom: 0;
 	 border-radius: inherit;
 	 pointer-events: none;
-	 box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #3cadfd, -3px 3px 30px #10abff;
+	 box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #87ceeb, -3px 3px 30px #4287a2;
 }
 
 
@@ -70,5 +71,5 @@
 	 bottom: 0;
 	 border-radius: inherit;
 	 pointer-events: none;
-	 box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #fc0488, -3px 3px 30px #fc04a8;
+	box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #bc8f8f, -3px 3px 30px #b27070;
 }
